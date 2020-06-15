@@ -1,0 +1,41 @@
+@function getWidthGrid($gridWidth) {
+  $width: (100 / (12 / $gridWidth)) * 1%;
+  @return #{$width};
+}
+
+@mixin create-mq($breakpoint) {
+  @if ($breakpoint == 0) {
+    @content;
+  } @else {
+    @debug "@media #{$breakpoint}";
+    @media #{$breakpoint} {
+      @content;
+    }
+  }
+}
+
+@mixin create-row() {
+  display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@mixin create-col() {
+  @each $modifier, $breakpoint in $device {
+    @include create-mq($breakpoint) {
+      @for $i from 1 through 12 {
+       
+        .col-#{$modifier}-#{$i} {
+          position: relative;
+          min-height: 1px;
+          padding-right: 15px;
+          padding-left: 15px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          flex-basis: getWidthGrid($i);
+        }
+      }
+    }
+  }
+}

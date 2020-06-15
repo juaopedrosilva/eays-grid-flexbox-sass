@@ -1,0 +1,16 @@
+body {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+.col-style {
+  background-color: #00d1b2;
+  border-radius: 10px; 
+  margin: 3px;
+  padding: .75rem;
+}
+ 
+.col-style:first-child {
+  background-color: yellow;
+}
