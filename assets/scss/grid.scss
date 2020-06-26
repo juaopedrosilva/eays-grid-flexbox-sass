@@ -1,3 +1,7 @@
+*, ::after, ::before {
+  box-sizing: border-box!important;
+}
+
 .container {
   width: 95%;
   margin: auto;
@@ -5,12 +9,8 @@
   .row {
     
     @include create-row();
-
-    &:first-child {
-      padding: 0;
-     }
-
-     @include create-col();
  
   }
 }
+ 
+@include create-col();

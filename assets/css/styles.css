@@ -1,3 +1,7 @@
+*, ::after, ::before {
+  box-sizing: border-box !important;
+}
+
 .container {
   width: 95%;
   margin: auto;
@@ -7,8 +11,9 @@
   flex-wrap: wrap;
   width: 100%;
 }
+
 @media (min-width: 1025px) {
-  .container .row > .col-d-1 {
+  .col-d-1 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -18,7 +23,8 @@
     white-space: nowrap;
     flex-basis: 8.3333333333%;
   }
-  .container .row > .col-d-2 {
+
+  .col-d-2 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -28,7 +34,8 @@
     white-space: nowrap;
     flex-basis: 16.6666666667%;
   }
-  .container .row > .col-d-3 {
+
+  .col-d-3 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -38,7 +45,8 @@
     white-space: nowrap;
     flex-basis: 25%;
   }
-  .container .row > .col-d-4 {
+
+  .col-d-4 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -48,7 +56,8 @@
     white-space: nowrap;
     flex-basis: 33.3333333333%;
   }
-  .container .row > .col-d-5 {
+
+  .col-d-5 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -58,7 +67,8 @@
     white-space: nowrap;
     flex-basis: 41.6666666667%;
   }
-  .container .row > .col-d-6 {
+
+  .col-d-6 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -68,7 +78,8 @@
     white-space: nowrap;
     flex-basis: 50%;
   }
-  .container .row > .col-d-7 {
+
+  .col-d-7 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -78,7 +89,8 @@
     white-space: nowrap;
     flex-basis: 58.3333333333%;
   }
-  .container .row > .col-d-8 {
+
+  .col-d-8 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -88,7 +100,8 @@
     white-space: nowrap;
     flex-basis: 66.6666666667%;
   }
-  .container .row > .col-d-9 {
+
+  .col-d-9 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -98,7 +111,8 @@
     white-space: nowrap;
     flex-basis: 75%;
   }
-  .container .row > .col-d-10 {
+
+  .col-d-10 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -108,7 +122,8 @@
     white-space: nowrap;
     flex-basis: 83.3333333333%;
   }
-  .container .row > .col-d-11 {
+
+  .col-d-11 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -118,7 +133,8 @@
     white-space: nowrap;
     flex-basis: 91.6666666667%;
   }
-  .container .row > .col-d-12 {
+
+  .col-d-12 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -130,7 +146,7 @@
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
-  .container .row > .col-t-1 {
+  .col-t-1 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -140,7 +156,8 @@
     white-space: nowrap;
     flex-basis: 8.3333333333%;
   }
-  .container .row > .col-t-2 {
+
+  .col-t-2 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -150,7 +167,8 @@
     white-space: nowrap;
     flex-basis: 16.6666666667%;
   }
-  .container .row > .col-t-3 {
+
+  .col-t-3 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -160,7 +178,8 @@
     white-space: nowrap;
     flex-basis: 25%;
   }
-  .container .row > .col-t-4 {
+
+  .col-t-4 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -170,7 +189,8 @@
     white-space: nowrap;
     flex-basis: 33.3333333333%;
   }
-  .container .row > .col-t-5 {
+
+  .col-t-5 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -180,7 +200,8 @@
     white-space: nowrap;
     flex-basis: 41.6666666667%;
   }
-  .container .row > .col-t-6 {
+
+  .col-t-6 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -190,7 +211,8 @@
     white-space: nowrap;
     flex-basis: 50%;
   }
-  .container .row > .col-t-7 {
+
+  .col-t-7 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -200,7 +222,8 @@
     white-space: nowrap;
     flex-basis: 58.3333333333%;
   }
-  .container .row > .col-t-8 {
+
+  .col-t-8 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -210,7 +233,8 @@
     white-space: nowrap;
     flex-basis: 66.6666666667%;
   }
-  .container .row > .col-t-9 {
+
+  .col-t-9 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -220,7 +244,8 @@
     white-space: nowrap;
     flex-basis: 75%;
   }
-  .container .row > .col-t-10 {
+
+  .col-t-10 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -230,7 +255,8 @@
     white-space: nowrap;
     flex-basis: 83.3333333333%;
   }
-  .container .row > .col-t-11 {
+
+  .col-t-11 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -240,7 +266,8 @@
     white-space: nowrap;
     flex-basis: 91.6666666667%;
   }
-  .container .row > .col-t-12 {
+
+  .col-t-12 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -252,7 +279,7 @@
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-  .container .row > .col-m-1 {
+  .col-m-1 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -262,7 +289,8 @@
     white-space: nowrap;
     flex-basis: 8.3333333333%;
   }
-  .container .row > .col-m-2 {
+
+  .col-m-2 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -272,7 +300,8 @@
     white-space: nowrap;
     flex-basis: 16.6666666667%;
   }
-  .container .row > .col-m-3 {
+
+  .col-m-3 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -282,7 +311,8 @@
     white-space: nowrap;
     flex-basis: 25%;
   }
-  .container .row > .col-m-4 {
+
+  .col-m-4 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -292,7 +322,8 @@
     white-space: nowrap;
     flex-basis: 33.3333333333%;
   }
-  .container .row > .col-m-5 {
+
+  .col-m-5 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -302,7 +333,8 @@
     white-space: nowrap;
     flex-basis: 41.6666666667%;
   }
-  .container .row > .col-m-6 {
+
+  .col-m-6 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -312,7 +344,8 @@
     white-space: nowrap;
     flex-basis: 50%;
   }
-  .container .row > .col-m-7 {
+
+  .col-m-7 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -322,7 +355,8 @@
     white-space: nowrap;
     flex-basis: 58.3333333333%;
   }
-  .container .row > .col-m-8 {
+
+  .col-m-8 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -332,7 +366,8 @@
     white-space: nowrap;
     flex-basis: 66.6666666667%;
   }
-  .container .row > .col-m-9 {
+
+  .col-m-9 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -342,7 +377,8 @@
     white-space: nowrap;
     flex-basis: 75%;
   }
-  .container .row > .col-m-10 {
+
+  .col-m-10 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -352,7 +388,8 @@
     white-space: nowrap;
     flex-basis: 83.3333333333%;
   }
-  .container .row > .col-m-11 {
+
+  .col-m-11 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -362,7 +399,8 @@
     white-space: nowrap;
     flex-basis: 91.6666666667%;
   }
-  .container .row > .col-m-12 {
+
+  .col-m-12 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;

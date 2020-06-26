@@ -1,6 +1,6 @@
 @function getWidthGrid($gridWidth) {
   $width: (100 / (12 / $gridWidth)) * 1%;
-  @return #{$width};
+  @return #{$width}
 }
 
 @mixin create-mq($breakpoint) {
